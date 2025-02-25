@@ -4,7 +4,7 @@ Refactorizar un proyecto existente para que cumpla la arquitectura de dos capas.
 
 
 ## Juego siete y media
-Las  siguientes  clases implementan una versión muy reducida del famoso juego de cartas siete y media. En esta versión, hay dos jugadores, el usuario y la banca. La banca es el ordenador (nuestro programa). Respecto al juego original, en esta versión no  hay apuestas y sólo se juega una mano. El funcionamiento concreto se aprecia fácilmente si clonas el repositorio y ejecutas  el programa que incluye al principio una mini explicación.
+Las  siguientes  clases implementan una versión muy reducida del famoso juego de cartas siete y media. En esta versión, hay dos jugadores, el usuario y la banca. La banca es el ordenador (nuestro programa). Respecto al juego original, en esta versión no  hay apuestas y sólo se juega una mano. El funcionamiento concreto se aprecia fácilmente si clonas/descargas el repositorio y ejecutas  el programa. El programa incluye al principio una  explicación del juego.
 
 
 Observa que la clase GameControler mezcla la lógica de negocio y la lógica de presentación, y por lo tanto,  claramente no cumple el principio de responsabilidad única. 
