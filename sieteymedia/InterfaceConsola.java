@@ -4,7 +4,7 @@ import java.util.Scanner;
 import recursos.Carta;
 
 public class InterfaceConsola {
-    private Scanner sc;
+    private final Scanner sc;
 
     public InterfaceConsola() {
         sc = new Scanner(System.in);

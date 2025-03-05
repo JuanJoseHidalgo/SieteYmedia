@@ -4,13 +4,17 @@ import recursos.Baraja;
 import recursos.Carta;
 
 public class SieteYMedia {
-    private Baraja baraja;
-    private Carta[] cartasJugador;
-    private Carta[] cartasBanca;
+    private final Baraja baraja;
+    private final Carta[] cartasJugador;
+    private final Carta[] cartasBanca;
 
     public SieteYMedia() {
         baraja = new Baraja();
         baraja.barajar();
+        // se van pidiendo cartas al jugar, pero matemáticamente a partir de 15 siempre
+        // nos pasamos
+        // hay 12 cartas de valor medio punto, si sacara estas 12 luego cartas con valor 1
+        // vemos que a partir de 15 cartas siempre se pasa
         cartasJugador = new Carta[15];
         cartasBanca = new Carta[15];
     }
